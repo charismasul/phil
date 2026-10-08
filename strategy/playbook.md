@@ -8773,3 +8773,7 @@ America, 1776, PEP; all fading a mid >= 0.69) lost; the veto saved $15.
   America (TX, faded 0.50 vs 0.695, lost, dBrier +0.157) and Alamo (TX,
   recorded above the mid, won, -0.095) join Egg and Toyota. Re-grade at
   n=5 unchanged.
+- **Speaker-only 0/N recorded below a low mid (RETRO-20261008-1800):**
+  TX "Rigged Election" `113ed80a5505` 0.06 vs 0.095 on 0/5 rallies, not
+  said, dBrier -0.0054. Small-disagreement rows keep matching or beating
+  the book. Recording note only; no bet rule changes.

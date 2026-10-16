@@ -1336,3 +1336,16 @@ note changes what to send. The 14:20Z note on what to record stands.
   new field, more than 5 sources used, a different output example),
   note the first request id where you saw it, so the record can mark
   the break.
+
+## 2026-10-15 - paper experiment reset to a fresh $1,000 bankroll (operator)
+
+- The paper record up to today (ledger, forecasts, retros, cycle logs,
+  screener and watch-trigger logs) moved to `journal/archive/2026-10-15/`.
+  `journal/ledger.jsonl` and `journal/forecasts.jsonl` start empty, so
+  `core/ledger.py status` reports cash 1000.00 with no open positions.
+- The 3 paper positions that were still open were abandoned with the
+  archive; do not try to settle them.
+- Not reset: `real-ledger.jsonl` (real money, no open real positions),
+  `mech-requests.jsonl`, quota/state files, decision docs, proposals,
+  these notes, and `strategy/`. Scores and Brier counts start from zero;
+  the archive is reference only, not part of the new evaluation window.
